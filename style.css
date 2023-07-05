@@ -1,0 +1,305 @@
+body{ background-color: black;}
+ 
+
+
+/* Navbar Section - Start */
+
+header { background-color: black;
+    padding: 20px;
+    color: white;
+    width: 100%;
+    position: fixed;}
+    
+    
+    .logo { width: 90px; height: 90px; }
+    
+    
+ul { list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     position:sticky;
+     background-color: black;
+     top: 0;}
+
+
+li { float:right;
+     font-size:x-large;}
+
+
+li a { display: block;
+       color: rgb(18, 174, 148);
+       text-align:center;
+       padding: 14px 16px;
+       text-decoration:none;}
+
+
+li a:hover { background-color:white;
+             color:  rgb(18, 174, 148);}
+
+
+/* Navbar Section - End */
+
+
+
+.tittle {
+    text-align: center;
+    color: rgb(18, 174, 148);
+    font-size: 50px;
+    font-weight: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif; }
+
+
+
+
+
+
+/* Header Section - Start */
+
+.one{ color: white;
+    padding: 50px;}
+
+
+#text{
+    margin-top: 250px;}
+
+
+span{ color: rgb(18, 174, 148);}
+
+#img{ 
+    margin: -550px 50px 100px 800px;}
+
+
+.button{
+     background-color: rgb(18, 174, 148);
+          border-radius: 12px 12px ;
+        width: 200px; height: 70px; }
+
+
+.button a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;}
+
+
+.button a:hover {
+    color: rgb(0, 0, 0);}
+
+/* Header Section - End */
+
+
+
+
+
+
+/* Education Section - Start */
+
+.two  {
+        color:  rgb(18, 174, 148);
+        border: solid black;
+        height: 700px;
+        background-color: white; 
+        margin-bottom: 100px;
+    }
+.two .tittle  {
+        text-align: center;
+    }
+.two .container  {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+
+ .orange{ border: solid black;
+          background-color: black;
+          color: white;
+          width: 300px; height: 400px;
+          margin-top: 60px;
+          text-align: center;}
+
+
+.college{
+    border: solid black;
+    background-color: black;
+    color: white;
+    width: 300px; height: 400px;
+    margin-top: 60px;
+    text-align: center;}
+
+/* Education Section - End */
+
+
+
+
+
+
+/* Experience Section - Start */
+
+.three{
+        /* color:  rgb(18, 174, 148); */
+        /* text-align: center; */
+    }
+.three .tittle {
+        color:  rgb(18, 174, 148);
+        text-align: center;
+    }
+.three .coding{ 
+        color: rgb(248, 248, 248);
+        /* width: 300px; height: 400px; */
+        /* text-align: center;
+        justify-content: space-evenly; */
+
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+    }
+
+    .three .coding img  {
+margin-bottom: 1rem;
+        border: solid rgb(255, 255, 255);
+
+    }
+
+/* Experience Section - End */
+
+
+
+
+/* Skills Section - Start  */
+
+.four{ 
+    background-color: white; 
+    height: 500px;
+
+}
+.four .tittle {
+    text-align: center;
+}
+
+.four .skills{ 
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+/* Skills Section - End  */
+
+
+
+
+
+/* project Section - start  */
+
+.five .tittle {
+    color:  rgb(18, 174, 148);
+    text-align: center;
+}
+
+
+.five {
+    color:  rgb(18, 174, 148);
+    border: solid black;
+    height: 700px;
+    background-color: black; 
+    margin-bottom: 100px;
+
+}
+
+.five .container  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.five .project{ border: solid black;
+      background-color: black;
+      color :white;
+      width: 300px; height: 400px;
+      margin-top: 60px;
+      text-align: center;}
+
+
+.five .mockup{
+border: solid black;
+background-color: black;
+color: white;
+width: 300px; height: 400px;
+margin-top: 60px;
+text-align: center;}
+
+.five .project img  { 
+    margin-bottom: 1rem; 
+        border: solid rgb(255, 255, 255); 
+}
+
+.five .mockup img  { 
+        margin-bottom: 1rem; 
+            border: solid rgb(255, 255, 255); 
+}
+
+.five .project a {
+     text-decoration: none; 
+    color: white; 
+     font-size: 20px; 
+}
+
+.five .mockup a { text-decoration: none; 
+    color: white; 
+     font-size: 20px; 
+}
+    
+
+/* project Section - End  */
+
+
+
+
+
+
+/* Footer Section - Start */
+
+
+.footer {
+    background-color: black;
+    padding-inline: 9rem;
+}
+
+
+.footer .tittle {color: rgb(18, 174, 148);
+     text-align: center ;
+     font-weight: 20px;
+     /* display: flex;
+     justify-content: center; */
+     font-family: 'Poppins', sans-serif; }
+
+.footer .info {
+    display: flex;
+    flex-wrap:wrap;
+    font-size: 30px;
+    color: rgb(18, 174, 148);
+    justify-content: space-around;
+    padding-inline: 1rem;
+}
+
+.footer .info a{
+    font-size: 30px;
+    color: rgb(18, 174, 148);
+    justify-content: space-between;}
+
+/* Footer Section - End */
+
+
+
+
